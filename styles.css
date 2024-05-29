@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+#home {
+    background: url('background.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#home h1 {
+    font-size: 2.5em;
+}
+
+#joinBtn {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#joinBtn:hover {
+    background-color: #45a049;
+}
+
+#news .news-item {
+    background-color: #444;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+#rules .rules-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#rules .rule {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#rules .rule h3 {
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+#rules .rule p {
+    margin: 10px 0 0;
+}
+
+#stats {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.discord-link {
+    display: inline-block;
+    background-color: #7289DA;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.discord-link:hover {
+    background-color: #5b6eae;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    text-align: left;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+p {
+    text-align: center ; /* Centrer le texte */
+    font-family: 'Arial', sans-serif; /* Police de caractères */
+    font-size: 16px; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+    color: #fff; /* Couleur du texte */
+    margin: 20px; /* Marges autour du paragraphe */
+}
+
+p::first-letter {
+    color: #4CAF50; /* Mettre la première lettre en orange */
+    font-weight: bold; /* Mettre la première lettre en gras */
+    font-size: 1.5em; /* Agrandir la première lettre */
+}
