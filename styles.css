@@ -93,6 +93,8 @@ main section {
     padding: 20px;
     border-radius: 10px;
     text-align: left;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #rules .rule h3 {
@@ -170,3 +172,42 @@ p::first-letter {
     font-weight: bold; /* Mettre la première lettre en gras */
     font-size: 1.5em; /* Agrandir la première lettre */
 }
+p1
+{
+font-size: 1.5em;
+
+}
+.image {
+    display: flex; /* Utilisation de flexbox pour aligner les éléments horizontalement */
+    align-items: center; /* Alignement vertical au centre */
+    margin-right : 200px;
+}
+
+.image img {
+    margin-right: 10px; /* Marge à droite pour séparer l'image du texte */
+    text-size-adjust: 10% ;
+    
+        width : 250px;
+        height : 250px;
+}
+
+.index {
+margin-right: 350px;
+margin-left: 350px;
+}
+
+.image2 img {
+        width : 350px;
+        height : 750px;
+    
+    float:left
+}
+
+.image3 img {
+        width : 350px;
+        height : 750px;
+        float : right;
+
+}
+
+
