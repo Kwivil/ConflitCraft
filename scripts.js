@@ -1,5 +1,5 @@
 document.getElementById('joinBtn').addEventListener('click', function() {
-    alert('L\'IP du serveur est play.ConflitCraft.com');
+    alert('L\'IP du serveur est play.ConflitCraft.fr');
 });
 
 // Simulating server statistics update
