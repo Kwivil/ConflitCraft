@@ -228,7 +228,7 @@ section.contact {
     gap: 20px;
 }
 
-.btn-vinted, .btn-leboncoin, .btn-tiktok {
+.btn-vinted, .btn-leboncoin, .btn-tiktok, .btn-nextdoor {
     padding: 10px 20px;
     color: white;
     border-radius: 5px;
@@ -248,7 +248,9 @@ section.contact {
 .btn-tiktok {
     background-color: #040506; /* Rose pour TikTok */
 }
-
+.btn-nextdoor {
+    background-color: #62e648; /* Rose pour TikTok */
+}
 .btn-vinted:hover {
     background-color: #d62839;
 }
@@ -260,6 +262,10 @@ section.contact {
 .btn-tiktok:hover {
     background-color: #d62839;
 }
+.btn-nextdoor:hover {
+    background-color: #d62839;
+}
+
 
 /* Footer */
 footer {
