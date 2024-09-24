@@ -227,11 +227,7 @@ section.contact {
     justify-content: center;
     gap: 20px;
 }
-.btn-nextdoor {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+
 
 .btn-vinted, .btn-leboncoin, .btn-tiktok, .btn-nextdoor {
     padding: 10px 20px;
@@ -244,18 +240,18 @@ section.contact {
 
 
 .btn-vinted {
-    background-color: #54acb4; /* Rouge pour Vinted */
+    background-color: #54acb4; /* Bleu pour Vinted */
 }
 
 .btn-leboncoin {
-    background-color: #ff7f00; /* Vert pour LeBonCoin */
+    background-color: #ff7f00; /* Orange pour LeBonCoin */
 }
 
 .btn-tiktok {
-    background-color: #040506; /* Rose pour TikTok */
+    background-color: #040506; /* Noir pour TikTok */
 }
 .btn-nextdoor {
-    background-color: #62e648; /* Rose pour TikTok */
+    background-color: #62e648; /* Vert pour Nextdoor */
 }
 .btn-vinted:hover {
     background-color: #d62839;
