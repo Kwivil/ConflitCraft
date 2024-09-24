@@ -227,6 +227,11 @@ section.contact {
     justify-content: center;
     gap: 20px;
 }
+.btn-nextdoor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
 .btn-vinted, .btn-leboncoin, .btn-tiktok, .btn-nextdoor {
     padding: 10px 20px;
@@ -236,6 +241,7 @@ section.contact {
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
+
 
 .btn-vinted {
     background-color: #54acb4; /* Rouge pour Vinted */
